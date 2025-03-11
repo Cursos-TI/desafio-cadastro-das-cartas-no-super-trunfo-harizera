@@ -39,8 +39,8 @@
         scanf("%f", &pib1);
 
         printf("Nome: %s\nEstado: %s\nCodigo: %s\n", nome1, estado1, codigo1);
-        printf("População: %d milhão\nArea: %f KM\n", populacao1, area1);
-        printf("Pontos turisticos: %d\nPIB %f Bilhoes de reais\n", turisticos1, pib1);
+        printf("População: %d pessoas\nArea: %f KM\n", populacao1, area1);
+        printf("Pontos turisticos: %d\nPIB %f reais\n", turisticos1, pib1);
 
         printf("Digite o estado da segunda carta: \n");
         scanf("%s", &estado2);
@@ -64,8 +64,8 @@
         scanf("%f", &pib2);
 
         printf("Nome: %s\nEstado: %s\nCodigo: %s\n", nome2, estado2, codigo2);
-        printf("População: %d mil\nArea: %f KM\n", populacao2, area2);
-        printf("Pontos turisticos: %d\nPIB %f Mil reais\n", turisticos2, pib2);
+        printf("População: %d pessoas\nArea: %f KM\n", populacao2, area2);
+        printf("Pontos turisticos: %d\nPIB %f reais\n", turisticos2, pib2);
 
         return 0;
 }
